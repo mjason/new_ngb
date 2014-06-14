@@ -1,7 +1,9 @@
 require "ngb/version"
 
 module Ngb
-  class String
+
+
+  String.class_eval do
     def black;          "\033[30m#{self}\033[0m" end
     def red;            "\033[31m#{self}\033[0m" end
     def green;          "\033[32m#{self}\033[0m" end
@@ -23,6 +25,7 @@ module Ngb
   end
 
   class Ngb
+
     
     def initialize(file_path)
       `mkdir -p ./src`

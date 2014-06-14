@@ -6,10 +6,10 @@ require 'ngb/version'
 Gem::Specification.new do |spec|
   spec.name          = "ngb"
   spec.version       = Ngb::VERSION
-  spec.authors       = ["mj"]
+  spec.authors       = ["mjason"]
   spec.email         = ["tywf91@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{golang package 依赖控制}
+  spec.description   = %q{golang package 依赖控制}
   spec.homepage      = ""
   spec.license       = "MIT"
 
