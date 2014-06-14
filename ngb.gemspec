@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["tywf91@gmail.com"]
   spec.summary       = %q{golang package 依赖控制}
   spec.description   = %q{golang package 依赖控制}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/mjason/new_ngb"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
